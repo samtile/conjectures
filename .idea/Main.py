@@ -24,9 +24,34 @@ def aaronBaseFiveConjecture():
     for i in range(currentIndex):
         print(sequence[i])
 
+# Daddy's base 5 conjecture
+def daddyBaseFiveConjecture():
+    currentNumber = 10000000000000000000
+    sequence = [None] * 1000
+    sequence[0] = currentNumber
+    currentIndex = 1
+    while(True):
+        if (currentNumber % 5 == 0):
+            sequence[currentIndex] = normal_round(currentNumber/5)
+        elif (currentNumber % 5 == 1):
+            sequence[currentIndex] = (currentNumber*3)-3
+        elif (currentNumber % 5 == 2):
+            sequence[currentIndex] = (currentNumber*2)+1
+        elif (currentNumber % 5 == 3):
+            sequence[currentIndex] = (currentNumber*3)+1
+        else:
+            sequence[currentIndex] = (currentNumber*2)+2
+        currentNumber = sequence[currentIndex]
+        currentIndex+=1
+        if currentNumber==0 or currentIndex==999:
+            break
+    for i in range(currentIndex):
+        print(sequence[i])
+
 def normal_round(n):
     if n - math.floor(n) < 0.5:
         return math.floor(n)
     return math.ceil(n)
 
-aaronBaseFiveConjecture()
+#aaronBaseFiveConjecture()
+daddyBaseFiveConjecture()

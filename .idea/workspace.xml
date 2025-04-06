@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8734c536-e34b-4f62-8f9d-21817809082d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conjectures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,18 @@
       <option name="presentableId" value="Default" />
       <updated>1743950027047</updated>
     </task>
+    <task id="LOCAL-00001" summary="Aaron's base 5 conecture">
+      <created>1743952260280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743952260280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aaron's base 5 conecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aaron's base 5 conecture" />
   </component>
 </project>
